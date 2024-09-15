@@ -13,7 +13,7 @@ public class task3 {
 		int n = text.length();
         
 		for (int i = 0; i < n; i++) {
-			char c = text.charAt(i);
+			char c = text.toLowerCase().charAt(i);
 
 			if (Character.isLetter(c)) {
 				if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y') {
