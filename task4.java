@@ -8,10 +8,10 @@ public class task4 {
                 + " or to take arms against a sea of troubles,"
                 + " and by opposing end them?";
         
-		text.toLowerCase();        
+		//text.toLowerCase();        
         
         	// Let's define a word as a sequence of letters, without digits and other symbols
-        	String[] words = text.split("[^a-z]+");
+        	String[] words = text.toLowerCase().split("[^a-z]+");
         
         	bubblesort(words);
 
